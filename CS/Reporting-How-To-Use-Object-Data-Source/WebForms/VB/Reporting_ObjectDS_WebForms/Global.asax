@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.vb" Inherits="Reporting_ObjectDS_WebForms.Global_asax" Language="vb" %>
