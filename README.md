@@ -3,21 +3,21 @@
 
 ASP.NET WebForms:
 
-* [EmployeesDataSource.cs](WebForms\CS\Reporting_ObjectDS_WebForms\ObjectDataSource\EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](WebForms\VB\Reporting_ObjectDS_WebForms\ObjectDataSource\EmployeesDataSource.vb))
-* [CustomWebDocumentViewerReportResolver.cs](WebForms\CS\Reporting_ObjectDS_WebForms\Services\CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](WebForms\VB\Reporting_ObjectDS_WebForms\Services\CustomWebDocumentViewerReportResolver.vb))
-* [Global.asax.cs](WebForms\CS\Reporting_ObjectDS_WebForms\Global.asax.cs) (VB: [Global.asax.vb](WebForms\VB\Reporting_ObjectDS_WebForms\Global.asax.vb))
+* [EmployeesDataSource.cs](WebForms/CS/Reporting_ObjectDS_WebForms/ObjectDataSource/EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](WebForms/VB/Reporting_ObjectDS_WebForms/ObjectDataSource/EmployeesDataSource.vb))
+* [CustomWebDocumentViewerReportResolver.cs](WebForms/CS/Reporting_ObjectDS_WebForms/Services/CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](WebForms/VB/Reporting_ObjectDS_WebForms/Services/CustomWebDocumentViewerReportResolver.vb))
+* [Global.asax.cs](WebForms/CS/Reporting_ObjectDS_WebForms/Global.asax.cs) (VB: [Global.asax.vb](WebForms/VB/Reporting_ObjectDS_WebForms/Global.asax.vb))
 
 ASP.NET MVC:
 
-* [EmployeesDataSource.cs](MVC\CS\Reporting_ObjectDS_Mvc\ObjectDataSource\EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](MVC\VB\Reporting_ObjectDS_Mvc\ObjectDataSource\EmployeesDataSource.vb))
-* [CustomWebDocumentViewerReportResolver.cs](MVC\CS\Reporting_ObjectDS_Mvc\Services\CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](MVC\VB\Reporting_ObjectDS_Mvc\Services\CustomWebDocumentViewerReportResolver.vb))
-* [Global.asax.cs](MVC\CS\Reporting_ObjectDS_Mvc\Global.asax.cs) (VB: [Global.asax.vb](MVC\VB\Reporting_ObjectDS_Mvc\Global.asax.vb))
+* [EmployeesDataSource.cs](MVC/CS/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](MVC/VB/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.vb))
+* [CustomWebDocumentViewerReportResolver.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.vb))
+* [Global.asax.cs](MVC/CS/Reporting_ObjectDS_Mvc/Global.asax.cs) (VB: [Global.asax.vb](MVC/VB/Reporting_ObjectDS_Mvc/Global.asax.vb))
 
 ASP.NET Core:
 
-* [EmployeesDataSource.cs](AspNetCore\Reporting_ObjectDS_AspNetCore\DataSources\EmployeesDataSource.cs)
-* [CustomWebDocumentViewerReportResolver.cs](AspNetCore\Reporting_ObjectDS_AspNetCore\Services\CustomWebDocumentViewerReportResolver.cs) 
-* [Startup.cs](AspNetCore\Reporting_ObjectDS_AspNetCore\Startup.cs) 
+* [EmployeesDataSource.cs](AspNetCore/Reporting_ObjectDS_AspNetCore/DataSources/EmployeesDataSource.cs)
+* [CustomWebDocumentViewerReportResolver.cs](AspNetCore/Reporting_ObjectDS_AspNetCore/Services/CustomWebDocumentViewerReportResolver.cs) 
+* [Startup.cs](AspNetCore/Reporting_ObjectDS_AspNetCore/Startup.cs) 
 
 <!-- default file list end -->
 
