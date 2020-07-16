@@ -3,19 +3,19 @@
 
 ASP.NET WebForms:
 
-* [VehiclesData.cs](WebForms\CS\Reporting_ObjectDS_WebForms\ObjectDataSource\VehiclesData.cs) (VB: [VehiclesData.vb](WebForms\VB\Reporting_ObjectDS_WebForms\ObjectDataSource\VehiclesData.vb))
+* [EmployeesDataSource.cs](WebForms\CS\Reporting_ObjectDS_WebForms\ObjectDataSource\EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](WebForms\VB\Reporting_ObjectDS_WebForms\ObjectDataSource\EmployeesDataSource.vb))
 * [CustomWebDocumentViewerReportResolver.cs](WebForms\CS\Reporting_ObjectDS_WebForms\Services\CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](WebForms\VB\Reporting_ObjectDS_WebForms\Services\CustomWebDocumentViewerReportResolver.vb))
 * [Global.asax.cs](WebForms\CS\Reporting_ObjectDS_WebForms\Global.asax.cs) (VB: [Global.asax.vb](WebForms\VB\Reporting_ObjectDS_WebForms\Global.asax.vb))
 
 ASP.NET MVC:
 
-* [VehiclesData.cs](MVC\CS\Reporting_ObjectDS_Mvc\ObjectDataSource\VehiclesData.cs) (VB: [VehiclesData.vb](MVC\VB\Reporting_ObjectDS_Mvc\ObjectDataSource\VehiclesData.vb))
+* [EmployeesDataSource.cs](MVC\CS\Reporting_ObjectDS_Mvc\ObjectDataSource\EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](MVC\VB\Reporting_ObjectDS_Mvc\ObjectDataSource\EmployeesDataSource.vb))
 * [CustomWebDocumentViewerReportResolver.cs](MVC\CS\Reporting_ObjectDS_Mvc\Services\CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](MVC\VB\Reporting_ObjectDS_Mvc\Services\CustomWebDocumentViewerReportResolver.vb))
 * [Global.asax.cs](MVC\CS\Reporting_ObjectDS_Mvc\Global.asax.cs) (VB: [Global.asax.vb](MVC\VB\Reporting_ObjectDS_Mvc\Global.asax.vb))
 
 ASP.NET Core:
 
-* [VehiclesData.cs](AspNetCore\Reporting_ObjectDS_AspNetCore\DataSources\VehiclesData.cs)
+* [EmployeesDataSource.cs](AspNetCore\Reporting_ObjectDS_AspNetCore\DataSources\EmployeesDataSource.cs)
 * [CustomWebDocumentViewerReportResolver.cs](AspNetCore\Reporting_ObjectDS_AspNetCore\Services\CustomWebDocumentViewerReportResolver.cs) 
 * [Startup.cs](AspNetCore\Reporting_ObjectDS_AspNetCore\Startup.cs) 
 
@@ -41,8 +41,8 @@ This example also demonstrates how to map a report's parameter to the data sourc
 * [Register Types for Object Data Source Wizard (ASP.NET MVC)](https://docs.devexpress.com/XtraReports/401229)
 * [Register Types for Object Data Source Wizard (ASP.NET Core)](https://docs.devexpress.com/XtraReports/401230)
 * [Create the Object Data Source at Runtime (ASP.NET WebForms)](https://docs.devexpress.com/XtraReports/401900)
-* [Create the Object Data Source at Runtime](https://docs.devexpress.com/XtraReports/401901)
-* [Create the Object Data Source at Runtime](https://docs.devexpress.com/XtraReports/401902)
+* [Create the Object Data Source at Runtime (ASP.NET MVC)](https://docs.devexpress.com/XtraReports/401901)
+* [Create the Object Data Source at Runtime (ASP.NET Core)](https://docs.devexpress.com/XtraReports/401902)
 
 
 
