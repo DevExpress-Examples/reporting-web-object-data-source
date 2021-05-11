@@ -9,15 +9,15 @@ ASP.NET WebForms:
 
 ASP.NET MVC:
 
-* [EmployeesDataSource.cs](.CS/Reporting-How-To-Use-Object-Data-Source/MVC/CS/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](.CS/Reporting-How-To-Use-Object-Data-Source/MVC/VB/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.vb))
-* [CustomWebDocumentViewerReportResolver.cs](.CS/Reporting-How-To-Use-Object-Data-Source/MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](.CS/Reporting-How-To-Use-Object-Data-Source/MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.vb))
-* [Global.asax.cs](.CS/Reporting-How-To-Use-Object-Data-Source/MVC/CS/Reporting_ObjectDS_Mvc/Global.asax.cs) (VB: [Global.asax.vb](.CS/Reporting-How-To-Use-Object-Data-Source/MVC/VB/Reporting_ObjectDS_Mvc/Global.asax.vb))
+* [EmployeesDataSource.cs](./CS/Reporting-How-To-Use-Object-Data-Source/MVC/CS/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](./CS/Reporting-How-To-Use-Object-Data-Source/MVC/VB/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.vb))
+* [CustomWebDocumentViewerReportResolver.cs](./CS/Reporting-How-To-Use-Object-Data-Source/MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](./CS/Reporting-How-To-Use-Object-Data-Source/MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.vb))
+* [Global.asax.cs](./CS/Reporting-How-To-Use-Object-Data-Source/MVC/CS/Reporting_ObjectDS_Mvc/Global.asax.cs) (VB: [Global.asax.vb](./CS/Reporting-How-To-Use-Object-Data-Source/MVC/VB/Reporting_ObjectDS_Mvc/Global.asax.vb))
 
 ASP.NET Core:
 
-* [EmployeesDataSource.cs](.CS/Reporting-How-To-Use-Object-Data-Source/AspNetCore/Reporting_ObjectDS_AspNetCore/DataSources/EmployeesDataSource.cs)
-* [CustomWebDocumentViewerReportResolver.cs](.CS/Reporting-How-To-Use-Object-Data-Source/AspNetCore/Reporting_ObjectDS_AspNetCore/Services/CustomWebDocumentViewerReportResolver.cs) 
-* [Startup.cs](.CS/Reporting-How-To-Use-Object-Data-Source/AspNetCore/Reporting_ObjectDS_AspNetCore/Startup.cs) 
+* [EmployeesDataSource.cs](./CS/Reporting-How-To-Use-Object-Data-Source/AspNetCore/Reporting_ObjectDS_AspNetCore/DataSources/EmployeesDataSource.cs)
+* [CustomWebDocumentViewerReportResolver.cs](./CS/Reporting-How-To-Use-Object-Data-Source/AspNetCore/Reporting_ObjectDS_AspNetCore/Services/CustomWebDocumentViewerReportResolver.cs) 
+* [Startup.cs](./CS/Reporting-How-To-Use-Object-Data-Source/AspNetCore/Reporting_ObjectDS_AspNetCore/Startup.cs) 
 
 <!-- default file list end -->
 
