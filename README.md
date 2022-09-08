@@ -1,3 +1,8 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/280259641/2022.1)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T915105)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # How to Use the Object Data Source in Web Reporting Applications
 
 This example includes simple projects with report components (Document Viewer and Report Designer) for ASP.NET WebForms, ASP.NET MVC, ASP.NET Core and Blazor Server (JavaScript-based) platforms. The project demonstrates how to create an object data source, bind it to a report, and restore the object data source when Document Viewer or Report Designer loads a report from a REPX file.
