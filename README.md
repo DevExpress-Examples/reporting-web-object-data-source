@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/280259641/2022.1)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T915105)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # How to Use the Object Data Source in Web Reporting Applications
 
 This example includes simple projects with report components (Document Viewer and Report Designer) for ASP.NET WebForms, ASP.NET MVC, ASP.NET Core and Blazor Server (JavaScript-based) platforms. The project demonstrates how to create an object data source, bind it to a report, and restore the object data source when Document Viewer or Report Designer loads a report from a REPX file.
@@ -35,10 +30,10 @@ ASP.NET WebForms:
 ASP.NET MVC:
 
 * [EmployeesDataSource.cs](MVC/CS/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](MVC/VB/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.vb))
-* [CustomWebDocumentViewerReportResolver.cs](Mvc/CS/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](Mvc/VB/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.vb))
-* [CustomReportStorageWebExtension.cs](Mvc/CS/Reporting_ObjectDS_Mvc/Services/CustomReportStorageWebExtension.cs) (VB: [CustomReportStorageWebExtension.vb](Mvc/VB/Reporting_ObjectDS_Mvc/Services/CustomReportStorageWebExtension.vb))
-* [CustomObjectDataSourceConstructorFilterService.cs](Mvc/CS/Reporting_ObjectDS_Mvc/Services/CustomObjectDataSourceConstructorFilterService.cs) (VB: [CustomObjectDataSourceConstructorFilterService.vb](Mvc/VB/Reporting_ObjectDS_Mvc/Services/CustomObjectDataSourceConstructorFilterService.vb))
-* [ObjectDataSourceWizardCustomTypeProvider.cs](Mvc/CS/Reporting_ObjectDS_Mvc/Services/ObjectDataSourceWizardCustomTypeProvider.cs) (VB: [ObjectDataSourceWizardCustomTypeProvider.vb](Mvc/VB/Reporting_ObjectDS_Mvc/Services/ObjectDataSourceWizardCustomTypeProvider.vb))
+* [CustomWebDocumentViewerReportResolver.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.vb))
+* [CustomReportStorageWebExtension.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomReportStorageWebExtension.cs) (VB: [CustomReportStorageWebExtension.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomReportStorageWebExtension.vb))
+* [CustomObjectDataSourceConstructorFilterService.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomObjectDataSourceConstructorFilterService.cs) (VB: [CustomObjectDataSourceConstructorFilterService.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomObjectDataSourceConstructorFilterService.vb))
+* [ObjectDataSourceWizardCustomTypeProvider.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/ObjectDataSourceWizardCustomTypeProvider.cs) (VB: [ObjectDataSourceWizardCustomTypeProvider.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/ObjectDataSourceWizardCustomTypeProvider.vb))
 * [Global.asax.cs](MVC/CS/Reporting_ObjectDS_Mvc/Global.asax.cs) (VB: [Global.asax.vb](MVC/VB/Reporting_ObjectDS_Mvc/Global.asax.vb))
 
 ASP.NET Core:
