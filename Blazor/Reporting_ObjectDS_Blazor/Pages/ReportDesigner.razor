@@ -1,0 +1,28 @@
+﻿@page "/reportdesigner"
+@using DevExpress.DataAccess.ObjectBinding
+
+@code {
+    Dictionary<string, object> myDataSources = new Dictionary<string, object>();
+
+    protected override void OnInitialized()
+    {
+        AddDataSource();
+    }
+
+
+    void AddDataSource()
+    {
+        ObjectDataSource dataSource = new ObjectDataSource();
+        dataSource.Name = "EmployeeObjectDS";
+        dataSource.DataSource = typeof(EmployeeList);
+        dataSource.Constructor = ObjectConstructorInfo.Default;
+        dataSource.DataMember = "Items";
+
+        myDataSources.Add("Employees", dataSource);
+    }
+}
+
+<DxReportDesigner ReportName="EmployeeReport?paramHeaderCaption=Object Data Source Example (Report Designer)"
+                  Height="1000px" Width="100%" AllowMDI="false"
+                  DataSources="@myDataSources">
+</DxReportDesigner>

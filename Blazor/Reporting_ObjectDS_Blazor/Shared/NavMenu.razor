@@ -1,0 +1,53 @@
+﻿<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="">Reporting_ObjectDS_Blazor</a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        @* ... *@
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="documentviewer/EmployeeReport?paramHeaderCaption=Object Data Source Example (Bind to Constructor)">
+                <span class="oi oi-document" aria-hidden="true"></span>
+                Document Viewer (Bind to Constructor)
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="documentviewer/EmployeeReport7?paramHeaderCaption=Object Data Source Example (Parameterized Constructor)">
+                <span class="oi oi-document" aria-hidden="true"></span>
+                Document Viewer (Bind to Parameterized Constructor)
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="documentviewer/EmployeeReport3?paramHeaderCaption=Object Data Source Example (Bind to Method)">
+                <span class="oi oi-document" aria-hidden="true"></span>
+                Document Viewer (Bind to Method)
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="documentviewer/EmployeeReportXtraParameter?paramHeaderCaption=Object Data Source Example (Report to Data Source Parameter Mapping)">
+                <span class="oi oi-document" aria-hidden="true"></span>
+                Document Viewer (Parameter Mapping)
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="reportdesigner">
+                <span class="oi oi-wrench" aria-hidden="true"></span>
+                Report Designer
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Reports\EmployeeReport.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\EmployeeReport.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="22.1.5-pre-22241" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Reports\EmployeeReport.cs">
+      <DependentUpon>EmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeReport.Designer.cs">
+      <DependentUpon>EmployeeReport.repx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

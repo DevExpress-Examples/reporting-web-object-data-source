@@ -1,9 +1,0 @@
-@using Reporting_ObjectDS_Mvc.Models
-@model ReportDesignerModel
-
-@Html.DevExpress().ReportDesigner(settings => {
-    settings.Name = "ReportDesigner1";
-    // Add the created data source to the list of default data sources.
-    foreach(var dataSourceItem in Model.DataSources)
-        settings.DataSources.Add(dataSourceItem.Key, dataSourceItem.Value);
-}).BindToUrl("EmployeeReport").GetHtml()

@@ -1,0 +1,12 @@
+package-lock.json
+**/wwwroot/css/icons/dxicons.ttf
+**/wwwroot/css/icons/dxicons.woff
+**/wwwroot/css/icons/dxicons.woff2
+**/wwwroot/css/designer.part.bundle.css
+**/wwwroot/css/thirdparty.bundle.css
+**/wwwroot/css/viewer.part.bundle.css
+**/wwwroot/css/dx-reporting-skeleton-screen.css
+**/wwwroot/js/designer.part.bundle.js
+**/wwwroot/js/viewer.part.bundle.js
+**/wwwroot/js/reporting.thirdparty.bundle.js
+**/wwwroot/js/site.thirdparty.bundle.js

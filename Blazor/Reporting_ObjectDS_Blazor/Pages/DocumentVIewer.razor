@@ -1,0 +1,19 @@
+﻿@page "/documentviewer/{reportName}"
+@inject NavigationManager UriHelper
+
+@code {
+    [Parameter]
+    public string reportName { get; set; }
+
+    public string reportEntry { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        reportEntry = reportName + UriHelper.ToAbsoluteUri(UriHelper.Uri).Query;
+        base.OnParametersSet();
+    }
+}
+
+<DxDocumentViewer ReportName=@reportEntry Height="1000px" Width="100%">
+    <DxDocumentViewerTabPanelSettings Width="180" />
+</DxDocumentViewer>
