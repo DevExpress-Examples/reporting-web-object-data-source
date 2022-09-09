@@ -1,19 +1,14 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/280259641/2022.1)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T915105)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # How to Use the Object Data Source in Web Reporting Applications
 
-This example includes simple projects with report components (Document Viewer and Report Designer) for ASP.NET WebForms, ASP.NET MVC, ASP.NET Core and Blazor Server (JavaScript-based) platforms. The project demonstrates how to create an object data source, bind it to a report, and restore the object data source when Document Viewer or Report Designer loads a report from a REPX file.
+This example includes simple projects with report components (Document Viewer and Report Designer) for ASP.NET WebForms, ASP.NET MVC, ASP.NET Core, and Blazor Server (JavaScript-based) platforms. The project demonstrates how to create an object data source, bind it to a report, and restore the object data source when Document Viewer or Report Designer loads a report from a REPX file.
 
 The [ObjectDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.ObjectBinding.ObjectDataSource) serves as an intermediate layer between the report and the collection of data elements to which the report is bound. The advantage of `ObjectDataSource` is that it is serialized in the report definition file (REPX). Otherwise, if you bind the report to a collection of custom objects, the data source information cannot be serialized, and you cannot restore the data source when you load the report from the REPX file.
 
 Assign an `ObjectDataSource` instance to the [DataSource](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.UI.XtraReportBase.DataSource) property of the report. The `ObjectDataSource` instance specifies the type, constructors, methods, and properties of a custom object that creates a collection of data items. The custom object can contain a method that populates the collection of data items at runtime or retrieves data from any external data source.
 
-The `CustomWebDocumentViewerReportResolver` service in this example implements the [IWebDocumentViewerReportResolver](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IWebDocumentViewerReportResolver) interface. The Document Viewer calls that before loading a report specified by name. The service creates a report, assigns the data source, and passes the report to the Docuemnt Viewer.
+The `CustomWebDocumentViewerReportResolver` service in this example implements the [IWebDocumentViewerReportResolver](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.WebDocumentViewer.IWebDocumentViewerReportResolver) interface. The Document Viewer calls that before loading a report specified by name. The service creates a report, assigns the data source, and passes the report to the Document Viewer.
 
-The `CustomReportStorageWebExtension` service loads and saves a report specified by name in the Report Designer. The service is the [ReportStorageWebExtension](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension) descendant.
+The `CustomReportStorageWebExtension` service loads and saves a report specified by name in the Report Designer. The service is a [ReportStorageWebExtension](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension) descendant.
 
 The `CustomObjectDataSourceConstructorFilterService` implements the [IObjectDataSourceConstructorFilterService](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Web.IObjectDataSourceConstructorFilterService) interface and filters the list of constructors available for the `ObjectDataSource` in the **Report Wizard** and **Data Source Wizard**. 
 

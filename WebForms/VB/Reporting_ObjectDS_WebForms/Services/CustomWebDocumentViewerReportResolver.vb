@@ -19,17 +19,17 @@ Namespace Reporting_ObjectDS_WebForms
 
 		Private Function CreateObjectDataSource(ByVal reportName As String) As Object
 			If reportName = "EmployeeReport" Then
-				'				#Region " ODS_Constructor"
+#Region "ODS_Constructor"
 				Dim dataSource As New ObjectDataSource()
 				dataSource.Name = "EmployeeObjectDS"
 				dataSource.DataSource = GetType(Employees.EmployeeList)
 				dataSource.Constructor = ObjectConstructorInfo.Default
 				dataSource.DataMember = "Items"
 				Return dataSource
-				'				#End Region
+#End Region
 			Else
 				If reportName.EndsWith("7") Then
-					'				#Region " ODS_ConstructorWithParameter"
+#Region "ODS_ConstructorWithParameter"
 					Dim dataSource As New ObjectDataSource()
 					dataSource.Name = "EmployeeObjectDS"
 					dataSource.DataSource = GetType(Employees.EmployeeList)
@@ -38,10 +38,10 @@ Namespace Reporting_ObjectDS_WebForms
 					dataSource.Constructor = New ObjectConstructorInfo(parameter)
 					dataSource.DataMember = "Items"
 					Return dataSource
-					'				#End Region
+#End Region
 				Else
 					If reportName.EndsWith("Parameter") Then
-						'				#Region " ODS_MapReportParameter"
+#Region "ODS_MapReportParameter"
 						Dim dataSource As New ObjectDataSource()
 						dataSource.Name = "EmployeeObjectDS"
 						dataSource.DataSource = GetType(Employees.EmployeeList)
@@ -50,9 +50,9 @@ Namespace Reporting_ObjectDS_WebForms
 						dataSource.Constructor = New ObjectConstructorInfo(parameter)
 						dataSource.DataMember = "Items"
 						Return dataSource
-						'				#End Region
+#End Region
 					Else
-						'				#Region "ODS_Method"
+#Region "ODS_Method"
 						Dim dataSource As New ObjectDataSource()
 						dataSource.Name = "EmployeeObjectDS"
 						dataSource.DataSource = GetType(Employees.EmployeeList)
@@ -61,7 +61,7 @@ Namespace Reporting_ObjectDS_WebForms
 						dataSource.DataMember = "GetData"
 						dataSource.Constructor = ObjectConstructorInfo.Default
 						Return dataSource
-						'				#End Region
+#End Region
 					End If
 				End If
 			End If
