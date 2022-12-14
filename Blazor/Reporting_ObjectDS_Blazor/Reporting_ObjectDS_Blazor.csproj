@@ -9,7 +9,7 @@
     <EmbeddedResource Include="Reports\EmployeeReport.repx" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="22.1.5-pre-22241" />
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls.BlazorServer" Version="22.2.*-*" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Reports\EmployeeReport.cs">
