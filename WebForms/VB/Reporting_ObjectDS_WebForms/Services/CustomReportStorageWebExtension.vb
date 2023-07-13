@@ -22,12 +22,6 @@ Namespace Reporting_ObjectDS_WebForms.Services
 			Me.reportDirectory = reportDirectory
 		End Sub
 
-		Private Function IsWithinReportsFolder(ByVal url As String, ByVal folder As String) As Boolean
-			Dim rootDirectory = New DirectoryInfo(folder)
-			Dim fileInfo = New FileInfo(Path.Combine(folder, url))
-			Return fileInfo.Directory.FullName.ToLower().StartsWith(rootDirectory.FullName.ToLower())
-		End Function
-
 		Public Overrides Function CanSetData(ByVal url As String) As Boolean
 			' Determines whether or not it is possible to store a report by a given URL. 
 			' For instance, make the CanSetData method return false for reports that should be read-only in your storage. 
@@ -74,10 +68,12 @@ Namespace Reporting_ObjectDS_WebForms.Services
 		Public Overrides Sub SetData(ByVal report As XtraReport, ByVal url As String)
 			' Stores the specified report to a Report Storage using the specified URL. 
 			' This method is called only after the IsValidUrl and CanSetData methods are called.
-			If Not IsWithinReportsFolder(url, reportDirectory) Then
-				Throw New FaultException(New FaultReason("Invalid report name."), New FaultCode("Server"), "GetData")
+			Dim resolvedUrl = Path.GetFullPath(Path.Combine(reportDirectory, url + FileExtension))
+			If Not resolvedUrl.StartsWith(reportDirectory + Path.DirectorySeparatorChar) Then
+				Throw New FaultException("Invalid report name.")
 			End If
-			report.SaveLayoutToXml(Path.Combine(reportDirectory, url & FileExtension))
+
+			report.SaveLayoutToXml(resolvedUrl)
 		End Sub
 
 		Public Overrides Function SetNewData(ByVal report As XtraReport, ByVal defaultUrl As String) As String
