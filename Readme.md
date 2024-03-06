@@ -68,7 +68,3 @@ Blazor:
 * [Register Types for Object Data Source Wizard (ASP.NET Core)](https://docs.devexpress.com/XtraReports/401230)
 * [Create the Object Data Source at Runtime (ASP.NET Core)](https://docs.devexpress.com/XtraReports/401902)
 * [Bind a Report to an Object Data Source in Blazor Applications](https://docs.devexpress.com/XtraReports/402070)
-
-
-
-

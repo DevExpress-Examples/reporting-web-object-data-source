@@ -53,73 +53,73 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Charts.v23.1.Core">
+    <Reference Include="DevExpress.Charts.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.CodeParser.v23.1">
+    <Reference Include="DevExpress.CodeParser.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v23.1">
+    <Reference Include="DevExpress.Data.Desktop.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.v23.1">
+    <Reference Include="DevExpress.Data.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.DataAccess.v23.1">
+    <Reference Include="DevExpress.DataAccess.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v23.1.Core">
+    <Reference Include="DevExpress.Office.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v23.1.Core">
+    <Reference Include="DevExpress.Pdf.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.PivotGrid.v23.1.Core">
+    <Reference Include="DevExpress.PivotGrid.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v23.1.Core">
+    <Reference Include="DevExpress.Printing.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v23.1.Core">
+    <Reference Include="DevExpress.RichEdit.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v23.1.Export">
+    <Reference Include="DevExpress.RichEdit.v23.2.Export">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Sparkline.v23.1.Core">
+    <Reference Include="DevExpress.Sparkline.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.ASPxThemes.v23.1">
+    <Reference Include="DevExpress.Web.ASPxThemes.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.Mvc5.v23.1">
+    <Reference Include="DevExpress.Web.Mvc5.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.Resources.v23.1">
+    <Reference Include="DevExpress.Web.Resources.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Web.v23.1">
+    <Reference Include="DevExpress.Web.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v23.1">
+    <Reference Include="DevExpress.Xpo.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraCharts.v23.1">
+    <Reference Include="DevExpress.XtraCharts.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraGauges.v23.1.Core">
+    <Reference Include="DevExpress.XtraGauges.v23.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v23.1">
+    <Reference Include="DevExpress.XtraReports.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v23.1.Web">
+    <Reference Include="DevExpress.XtraReports.v23.2.Web">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v23.1.Web.WebForms">
+    <Reference Include="DevExpress.XtraReports.v23.2.Web.WebForms">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-	<Reference Include="DevExpress.Drawing.v23.1"/>
+	<Reference Include="DevExpress.Drawing.v23.2"/>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
