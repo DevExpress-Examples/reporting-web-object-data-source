@@ -25,6 +25,7 @@ namespace Reporting_ObjectDS_AspNetCore
             services.AddDevExpressControls();
             services.AddScoped<ReportStorageWebExtension, CustomReportStorageWebExtension>();
             services.AddTransient<IWebDocumentViewerReportResolver, CustomWebDocumentViewerReportResolver>();
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(EmployeeList));
 
             services
                 .AddControllersWithViews()
