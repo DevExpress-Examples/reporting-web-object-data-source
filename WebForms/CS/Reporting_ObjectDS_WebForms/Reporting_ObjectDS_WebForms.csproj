@@ -81,10 +81,10 @@
     <Reference Include="DevExpress.Drawing.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v23.2">
+    <Reference Include="DevExpress.XtraReports.v23.2.Web">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.XtraReports.v23.2.Web">
+    <Reference Include="DevExpress.XtraReports.v23.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="DevExpress.XtraReports.v23.2.Web.WebForms">
