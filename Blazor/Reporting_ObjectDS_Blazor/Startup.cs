@@ -35,6 +35,7 @@ namespace Reporting_ObjectDS_Blazor
                 {
                     designerConfigurator.RegisterObjectDataSourceWizardTypeProvider<ObjectDataSourceWizardCustomTypeProvider>();
                 });
+                DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(EmployeeList));
             });
         }
 

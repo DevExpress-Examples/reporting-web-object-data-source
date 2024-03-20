@@ -7,8 +7,7 @@ namespace Reporting_ObjectDS_AspNetCore.Controllers {
         }
 
         public IActionResult Designer() {
-            Models.ReportDesignerModel model = new Models.ReportDesignerModel();
-            return View(model);
+            return View();
         }
 
         public IActionResult Viewer() {
