@@ -9,10 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Reporting_ObjectDS_AspNetCore.Services;
-using System;
 
-namespace Reporting_ObjectDS_AspNetCore
-{
+namespace Reporting_ObjectDS_AspNetCore {
     public class Startup {
         public Startup(IConfiguration configuration, IWebHostEnvironment hostingEnvironment) {
             Configuration = configuration;
@@ -25,11 +23,9 @@ namespace Reporting_ObjectDS_AspNetCore
             services.AddDevExpressControls();
             services.AddScoped<ReportStorageWebExtension, CustomReportStorageWebExtension>();
             services.AddTransient<IWebDocumentViewerReportResolver, CustomWebDocumentViewerReportResolver>();
-            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(EmployeeList));
 
             services
-                .AddControllersWithViews()
-                .AddNewtonsoftJson();
+                .AddControllersWithViews();
             services.ConfigureReportingServices(configurator => {
                 configurator.ConfigureReportDesigner(designerConfigurator => {
                     designerConfigurator.RegisterDataSourceWizardConfigFileConnectionStringsProvider();
@@ -44,15 +40,11 @@ namespace Reporting_ObjectDS_AspNetCore
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) {
-            var reportingLogger = loggerFactory.CreateLogger("DXReporting");
-            DevExpress.XtraReports.Web.ClientControls.LoggerService.Initialize((exception, message) => {
-                var logMessage = $"[{DateTime.Now}]: Exception occurred. Message: '{message}'. Exception Details:\r\n{exception}";
-                reportingLogger.LogError(logMessage);
-            });
+            DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(EmployeeList));
             DevExpress.XtraReports.Configuration.Settings.Default.UserDesignerOptions.DataBindingMode = DevExpress.XtraReports.UI.DataBindingMode.Expressions;
             app.UseDevExpressControls();
             System.Net.ServicePointManager.SecurityProtocol |= System.Net.SecurityProtocolType.Tls12;
-            if(env.IsDevelopment()) {
+            if (env.IsDevelopment()) {
                 app.UseDeveloperExceptionPage();
             } else {
                 app.UseExceptionHandler("/Home/Error");
@@ -61,7 +53,7 @@ namespace Reporting_ObjectDS_AspNetCore
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            
+
             app.UseRouting();
 
             app.UseAuthorization();

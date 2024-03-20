@@ -37,7 +37,6 @@
     <Exec Command="npm install" />
   </Target>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.0" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.116" />
     <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="23.2.*-*" />
@@ -57,5 +56,8 @@
     <Compile Update="PredefinedReports\XtraReport1.Designer.cs">
       <DependentUpon>XtraReport1.repx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
