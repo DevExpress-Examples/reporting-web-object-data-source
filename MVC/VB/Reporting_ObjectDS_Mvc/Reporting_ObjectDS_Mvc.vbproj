@@ -327,7 +327,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="PredefinedReports\EmployeeReport.resx">
       <DependentUpon>EmployeeReport.vb</DependentUpon>
     </EmbeddedResource>
