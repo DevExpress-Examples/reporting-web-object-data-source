@@ -34,12 +34,12 @@ ASP.NET WebForms:
 
 ASP.NET MVC:
 
-* [EmployeesDataSource.cs](MVC/CS/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.cs) (VB: [EmployeesDataSource.vb](MVC/VB/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.vb))
-* [CustomWebDocumentViewerReportResolver.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.cs) (VB: [CustomWebDocumentViewerReportResolver.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.vb))
-* [CustomReportStorageWebExtension.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomReportStorageWebExtension.cs) (VB: [CustomReportStorageWebExtension.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomReportStorageWebExtension.vb))
-* [CustomObjectDataSourceConstructorFilterService.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomObjectDataSourceConstructorFilterService.cs) (VB: [CustomObjectDataSourceConstructorFilterService.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/CustomObjectDataSourceConstructorFilterService.vb))
-* [ObjectDataSourceWizardCustomTypeProvider.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/ObjectDataSourceWizardCustomTypeProvider.cs) (VB: [ObjectDataSourceWizardCustomTypeProvider.vb](MVC/VB/Reporting_ObjectDS_Mvc/Services/ObjectDataSourceWizardCustomTypeProvider.vb))
-* [Global.asax.cs](MVC/CS/Reporting_ObjectDS_Mvc/Global.asax.cs) (VB: [Global.asax.vb](MVC/VB/Reporting_ObjectDS_Mvc/Global.asax.vb))
+* [EmployeesDataSource.cs](MVC/CS/Reporting_ObjectDS_Mvc/ObjectDataSource/EmployeesDataSource.cs) 
+* [CustomWebDocumentViewerReportResolver.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomWebDocumentViewerReportResolver.cs) 
+* [CustomReportStorageWebExtension.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomReportStorageWebExtension.cs) 
+* [CustomObjectDataSourceConstructorFilterService.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/CustomObjectDataSourceConstructorFilterService.cs) 
+* [ObjectDataSourceWizardCustomTypeProvider.cs](MVC/CS/Reporting_ObjectDS_Mvc/Services/ObjectDataSourceWizardCustomTypeProvider.cs) 
+* [Global.asax.cs](MVC/CS/Reporting_ObjectDS_Mvc/Global.asax.cs) 
 
 ASP.NET Core:
 
