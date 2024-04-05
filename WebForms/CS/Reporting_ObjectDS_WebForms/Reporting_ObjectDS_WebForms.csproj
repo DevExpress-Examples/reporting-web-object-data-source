@@ -82,7 +82,7 @@
     <Reference Include="DevExpress.Xpo.v23.2" />
     <Reference Include="DevExpress.XtraCharts.v23.2" />
     <Reference Include="DevExpress.XtraGauges.v23.2.Core" />
-    <Reference Include="DevExpress.Drawing.v23.2">
+    <Reference Include="DevExpress.Drawing.v23.2" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
