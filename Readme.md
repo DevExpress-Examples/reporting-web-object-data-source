@@ -70,7 +70,7 @@ Blazor:
 * [Create the Object Data Source at Runtime (ASP.NET Core)](https://docs.devexpress.com/XtraReports/401902)
 * [Bind a Report to an Object Data Source in Blazor Applications](https://docs.devexpress.com/XtraReports/402070)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-object-data-source&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-web-object-data-source&~~~was_helpful=no)
 
